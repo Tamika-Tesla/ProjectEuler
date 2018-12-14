@@ -46,7 +46,6 @@ int solve(int arg)
 int main()
 {
 	assert(solve(8) == 840);
-	assert(solve(10) == 2520);
 	auto  now = std::chrono::high_resolution_clock::now();
 	auto answer = solve(20);
 	auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(std::chrono::high_resolution_clock::now() - now);
